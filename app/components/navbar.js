@@ -23,16 +23,16 @@ export function NavBar() {
     onOpen();
   };
   return (
-    <Navbar className='bg-transparent lg:m-10 md:m-8 sm:m-6' fluid rounded>
+    <Navbar className='bg-transparent lg:m-10 md:m-8 sm:m-6 my-3' fluid rounded>
       <NavbarBrand href="#">
         <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Keffi Pixel Press Logo" />
       </NavbarBrand>
       <span className="self-center whitespace-nowrap lg:text-4xl md:text-2xl text-md text-white font-semibold dark:text-white">
         <span className={KollektifFontStyle.className}>
-          <span className="lg:text-6xl md:text-5xl text-xl">K</span>EFFI
-          <span className="lg:text-6xl md:text-5xl text-xl">P</span>IXEL
+          <span className="lg:text-6xl md:text-5xl text-2xl">K</span>EFFI
+          <span className="lg:text-6xl md:text-5xl text-2xl">P</span>IXEL
           &nbsp;
-          <span className="lg:text-6xl md:text-5xl text-xl">P</span>RESS
+          <span className="lg:text-6xl md:text-5xl text-2xl">P</span>RESS
         </span>
       </span>
       <div>
