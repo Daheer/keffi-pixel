@@ -13,7 +13,7 @@ export const metadata = {
   description: 'Keffi Pixel Press is a digital agency based in Keffi, Nigeria. We offer pristine printing services.',
   creator: 'Dahiru Ibrahim',
   icons: {
-    'icon': '/logo.png',
+    'icon': '/logo.svg',
   }
 }
 
