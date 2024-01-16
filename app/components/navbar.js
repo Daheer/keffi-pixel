@@ -29,17 +29,17 @@ export function NavBar() {
       </NavbarBrand>
       <span className="self-center whitespace-nowrap lg:text-4xl md:text-3xl sm:text-lg text-white font-semibold dark:text-white">
         <span className={KollektifFontStyle.className}>
-          <span className="lg:text-6xl md:text-5xl sm:text-3xl text-xl">K</span>EFFI
-          <span className="lg:text-6xl md:text-5xl sm:text-3xl text-xl">P</span>IXEL
+          <span className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl">K</span>EFFI
+          <span className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl">P</span>IXEL
           &nbsp;
-          <span className="lg:text-6xl md:text-5xl sm:text-3xl text-xl">P</span>RESS
+          <span className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl">P</span>RESS
         </span>
       </span>
       <div className="flex">
 
         <>
           <div className="flex flex-wrap gap-3">
-            <Button onPress={() => handleOpen("blur")} variant='bordered' size='lg' className='text-white'>
+            <Button onPress={() => handleOpen("blur")} variant='bordered' size='lg' className='text-white sm:text-md md:p-4 p-2'>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
               Contact us
             </Button >
