@@ -9,7 +9,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center mt-10">
         <ScrollShadow hideScrollBar size={200} className="w-fit h-[600px]">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
             <ServiceCard title="Print on A4 Paper" service="print_on_a4_paper" price="80" image="/pattern1.png" />
             <ServiceCard title="Print on A4 Card" service="print_on_a4_card" price="120" image="/pattern2.png" />
             <ServiceCard title="Print on A3 Paper" service="print_on_a3_paper" price="160" image="/pattern3.png" />
