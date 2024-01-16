@@ -23,7 +23,7 @@ export function NavBar() {
     onOpen();
   };
   return (
-    <Navbar className='bg-transparent lg:m-10 md:m-8 sm:m-5' fluid rounded>
+    <Navbar className='bg-transparent lg:m-10 md:m-8 sm:m-6' fluid rounded>
       <NavbarBrand href="#">
         <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Keffi Pixel Press Logo" />
       </NavbarBrand>

@@ -135,7 +135,7 @@ export default function ServicePage({ params }) {
 
   return (
     <div className='flex flex-col justify-center'>
-      <div className='ml-64 w-fit hover:scale-x-125'>
+      <div className='lg:ml-64 sm:ml-10 w-fit hover:scale-x-125'>
         <Link href="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H6M12 5l-7 7 7 7" /></svg>
         </Link>

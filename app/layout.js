@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Keffi Pixel Press',
-  description: 'Keffi Pixel Press is a digital agency based in Keffi, Nigeria. We offer pristine printing services.',
+  description: 'Keffi Pixel Press is a digital printing agency based in Keffi, Nigeria.',
   creator: 'Dahiru Ibrahim',
   icons: {
     'icon': '/logo.svg',
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className={CircleStdFontStyle.className}>
           <NavBar />
-          <Toaster position="bottom-center" />
+          <Toaster position="top-center" />
           {children}
         </div>
       </body>
