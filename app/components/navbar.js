@@ -27,7 +27,7 @@ export function NavBar() {
       <NavbarBrand href="#">
         <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Keffi Pixel Press Logo" />
       </NavbarBrand>
-      <span className="self-center whitespace-nowrap lg:text-4xl md:text-3xl sm:text-md text-md text-white font-semibold dark:text-white">
+      <span className="self-center whitespace-nowrap lg:text-4xl md:text-2xl sm:text-md text-md text-white font-semibold dark:text-white">
         <span className={KollektifFontStyle.className}>
           <span className="lg:text-6xl md:text-5xl sm:text-2xl text-xl">K</span>EFFI
           <span className="lg:text-6xl md:text-5xl sm:text-2xl text-xl">P</span>IXEL
