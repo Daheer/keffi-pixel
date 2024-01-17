@@ -12,8 +12,22 @@ export function getServiceName(service) {
       return "Print Business Card";
     case "print_id_card":
       return "Print ID Card";
+    case "print_banner":
+      return "Print Banner";
+    case "print_iv_card":
+      return "Print Invitation Card";
+    case "print_flyer":
+      return "Print Flyer";
+    case "print_calendar":
+      return "Print Calendar";
+    case "print_jotter":
+      return "Print Jotter";
+    case "web_graphics":
+      return "Web & Graphics Design";
+    case "print_sticker":
+      return "Print Sticker";
     default:
-      return "Print on A4 Card";
+      return null;
   }
 }
 
@@ -32,10 +46,14 @@ export function getServicePrice(service) {
     case "print_id_card":
       return 350;
     default:
-      return 80;
+      return null;
   }
 }
 
 export function getAvailableServices() {
   return ["print_on_a4_card", "print_on_a3_card", "print_on_a4_paper", "print_on_a3_paper", "print_business_card", "print_id_card"]
+}
+
+export function getAllServices() {
+  return ["print_on_a4_card", "print_on_a3_card", "print_on_a4_paper", "print_on_a3_paper", "print_business_card", "print_id_card", "print_banner", "print_iv_card", "print_flyer", "print_calendar", "print_jotter", "print_sticker", "web_graphics"]
 }
