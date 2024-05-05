@@ -57,3 +57,17 @@ export function getAvailableServices() {
 export function getAllServices() {
   return ["print_on_a4_card", "print_on_a3_card", "print_on_a4_paper", "print_on_a3_paper", "print_business_card", "print_id_card", "print_banner", "print_iv_card", "print_flyer", "print_calendar", "print_jotter", "print_sticker", "web_graphics"]
 }
+
+import { supabase } from "./supabase";
+
+export async function db_getServicePrice(id) {
+  const { data, error } = await supabase.from('services').select('price').eq('id', id)
+  console.log(data);
+  return data[0].price;
+}
+
+export async function db_getServiceDescription(id) {
+  const { data, error } = await supabase.from('services').select('description').eq('id', id)
+  console.log(data)
+  return data[0].description;
+}
